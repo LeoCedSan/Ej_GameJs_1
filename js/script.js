@@ -25,7 +25,7 @@ const floor = {
 
 // Background
 const background = new Image();
-background.src = '../img/scene.png';
+background.src = '../img/DrewMan_stage/map1.png';
 
 function drawBackground() {
   ctx.drawImage(background, 0, 0, canvas.width, canvas.height);
